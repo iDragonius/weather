@@ -1,0 +1,141 @@
+.weathhead {
+    font-weight: 600;
+    font-size: 45px;
+    display: flex;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: gold;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.winfo {
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: azure;
+    padding: 0 20px 5px 20px;
+    border-bottom: 1px solid azure;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info {
+    cursor: pointer;
+    opacity: 0.5;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 7px;
+    transition: all .3s;
+}
+.info:hover {
+    opacity: 1;
+}
+
+.wmain {
+    height: 230px;
+    margin-top: 30px;
+    padding: 20px 50px;
+    border-radius: 30px;
+    border:1px solid azure;
+    background-image: url(../img/weather.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+
+
+
+.wBack {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.wBack.active {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Weath {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    border-left: 2px solid azure;
+}
+
+
+.span {
+    color: gold;
+}
+
+.spanLast {
+    font-weight: 600;
+    background: gold;
+    border-radius: 10px;
+    color: azure;
+    padding: 0 5px 0 5px ;
+}
+.welement {
+    align-self: normal;
+}
+
+.weather input {
+    padding: 10px 20px;
+    background: #273250;
+    border: none;
+    font-size: 18px;
+    outline: none;
+}
+.weather input::placeholder {
+    color: azure;
+    opacity: 0.5;
+}
+.form {
+    display: flex;
+    justify-content: center;
+}
+.bttn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    color: #273250;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.cityInfo {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    margin: 20px;
+    border: 1px solid azure;
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+}
+.citiesInfo {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
